@@ -1,0 +1,14 @@
+spring:
+  cloud:
+    stream:
+      bindings:
+        input:
+          destination: testin
+        output:
+          destination: tesout
+        testout:
+          destination: receiver
+        testin:
+          destination: receiver1
+        testinout:
+          destination: receiver2
