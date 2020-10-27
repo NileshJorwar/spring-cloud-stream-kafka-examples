@@ -1,0 +1,18 @@
+server:
+  port: 8088
+spring:
+  cloud:
+    stream:
+      bindings:
+        testout:
+          destination: receiver
+        testin:
+          destination: receiver1
+        testinout:
+          destination: receiver2
+        checktopic:
+          destination: checkTp
+        bpsOut:
+          destination: BR.DATAFABRIC.PESOURCEXML.GPTM.DEMO.INT.TOPIC
+        bpsIn:
+          destination: BR.DATAFABRIC.LATESTVERSION.OUTPUT.GPTM.DEMO.INT.TOPIC
