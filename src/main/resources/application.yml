@@ -13,6 +13,6 @@ spring:
         checktopic:
           destination: checkTp
         bpsOut:
-          destination: BR.DATAFABRIC.PESOURCEXML.GPTM.DEMO.INT.TOPIC
+          destination: BP.DATA.PE.GM.DEMO.INT.TOPIC
         bpsIn:
-          destination: BR.DATAFABRIC.LATESTVERSION.OUTPUT.GPTM.DEMO.INT.TOPIC
+          destination: BP.DATA.LN.OUTPUT.GM.DEMO.INT.TOPIC
